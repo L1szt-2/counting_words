@@ -1,11 +1,11 @@
 # counting_words
 Simplfied Running Text Program in c++
 
-#TREE PROJECT
+# TREE PROJECT
 
 There is a real program developed by a computer company that reads a report ( running text ) and issues warnings on style and partially correct bad style. You are to write a simplified version of this program with the following features:
 
-#Statistics
+# Statistics
 
 A statistical summary with the following information:
 
@@ -21,7 +21,7 @@ A statistical summary with the following information:
 
 · An index (alphabetical listing) of all the unique words (see next page for a specific format)
 
-#Style Warnings
+# Style Warnings
 
 Issue a warning in the following cases:
 
@@ -31,13 +31,13 @@ Issue a warning in the following cases:
 
 · Word length : write a warning message if the average word length is greater than 5
 
-#Input
+# Input
 
 From the keyboard: The name of the file containing the text to be analyzed
 
 From the file: The report to be analyzed.
 
-#Output
+# Output
 
 1. Write the following information to a file:
 
@@ -47,11 +47,11 @@ From the file: The report to be analyzed.
 
 · The style warnings ( see Style Warnings above )
 
-#Data Structures
+# Data Structures
 
 A BST of unique words in the report, created as the file is read. If a word is not in the list, put it there. If it is, increment a counter showing how many times the word has been used.
 
-#Definitions
+# Definitions
 
 Word: Sequence of letters ending in a blank, a period, an exclamation point, a question mark, a colon, a comma, a single quote, or a semicolon. You may assume that numbers do not appear in the words; they may be ignored.
 
